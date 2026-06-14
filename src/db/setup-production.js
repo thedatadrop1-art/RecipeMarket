@@ -1,4 +1,4 @@
-const { query, pool } = require('./db/pool');
+const { query, pool } = require('./pool');
 
 async function setup() {
   console.log('Setting up production database...');
